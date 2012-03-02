@@ -1,0 +1,11 @@
+--- origsrc/DBD-ODBC-1.33/Makefile.PL	2011-07-28 05:31:31.000000000 -0500
++++ src/DBD-ODBC-1.33/Makefile.PL	2012-03-02 01:44:35.672805700 -0600
+@@ -352,7 +352,7 @@ EOT
+             $odbchome = '/opt/sapdb/interfaces/odbc/';
+         }
+     }
+-    if ($OSNAME eq 'cygwin'){   #Trade cygwin as MSWin.
++    if (0){   #Trade cygwin as MSWin.
+         my $extrainc = q{};
+         $extrainc = ";$Config{incpath}\\mfc" if $Config{cc} eq 'bcc32';
+         $opts{SKIP} = ['processPL'];
