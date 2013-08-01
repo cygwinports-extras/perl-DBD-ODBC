@@ -1,5 +1,0 @@
-CPAN_AUTHOR=mjevans
-inherit perl
-
-
-PATCH_URI="1.33-cygwin.patch"

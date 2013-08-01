@@ -1,4 +1,0 @@
-category: Perl Database
-requires: libiodbc2 libssp0 perl perl-DBI
-sdesc: "ODBC driver for the Perl DBI framework"
-ldesc: "ODBC driver for the Perl DBI framework"

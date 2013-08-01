@@ -1,0 +1,17 @@
+CPAN_AUTHOR=mjevans
+inherit perl
+
+NAME="perl-DBD-ODBC"
+VERSION=1.43
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="ODBC driver for the Perl DBI framework"
+DESCRIPTION="ODBC driver for the Perl DBI framework"
+
+PATCH_URI="1.33-cygwin.patch"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	echo | perl_compile
+}
