@@ -2,7 +2,7 @@ CPAN_AUTHOR=mjevans
 inherit perl
 
 NAME="perl-DBD-ODBC"
-VERSION=1.43
+VERSION=1.52
 RELEASE=1
 CATEGORY="Perl"
 SUMMARY="ODBC driver for the Perl DBI framework"
